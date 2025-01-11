@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.redisviewer</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>../../../../Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12</string>
+        <string>/Users/vibhusharma/Redis Viewer/redis_stream.py</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardErrorPath</key>
+    <string>/Users/vibhusharma/Redis Viewer/logs/error.log</string>
+    <key>StandardOutPath</key>
+    <string>/Users/vibhusharma/Redis Viewer/logs/output.log</string>
+    <key>WorkingDirectory</key>
+    <string>/Users/vibhusharma/Redis Viewer</string>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>Nice</key>
+	<integer>0</integer>
+	<key>AbandonProcessGroup</key>
+	<true/>
+</dict>
+</plist>
