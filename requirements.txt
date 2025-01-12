@@ -1,0 +1,29 @@
+# Web Framework
+dash>=2.14.1
+flask>=3.0.0
+
+# Redis
+redis>=5.0.1
+
+# Data Processing
+pandas>=2.1.4
+
+# Serialization
+msgpack>=1.0.7
+python-snappy>=0.6.1
+lz4>=4.3.2
+
+# Grid Component
+dash-ag-grid>=31.0.1
+
+# Code Highlighting
+pygments>=2.17.2
+
+# Date/Time handling
+python-dateutil>=2.8.2
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Optional but recommended
+dash-bootstrap-components>=1.5.0
